@@ -1,0 +1,20 @@
+@model ContactManagementApp.Models.Contact
+
+<h2>Edit Contact</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div>
+        <label>Name:</label>
+        <input asp-for="Name" />
+    </div>
+    <div>
+        <label>Email:</label>
+        <input asp-for="Email" />
+    </div>
+    <div>
+        <label>Phone:</label>
+        <input asp-for="Phone" />
+    </div>
+    <button type="submit">Update</button>
+</form>
