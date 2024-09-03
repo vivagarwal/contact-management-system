@@ -110,11 +110,3 @@ You can configure the application settings in the `appsettings.json` file locate
 
 If you would like to contribute to this project, please fork the repository and create a pull request with your changes. Make sure to follow the coding conventions and add appropriate tests for your changes.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions or issues, please contact me at [your-email@example.com](mailto:your-email@example.com).
-
